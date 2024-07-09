@@ -1,0 +1,90 @@
+/*
+    box-model
+    position
+    flex -- container
+
+*/
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	height: 4000px;
+}
+/**
+Box Model
+
+width = width + paddingLeft+paddingRight + borderLeft+borderRight;
+
+
+height = height + paddingTop + paddingBottom+borderTop+borderBottom
+100 + 20 + 20 
+
+
+*/
+/* 
+.container {
+	display: flex;
+	justify-content: center;
+}
+.first {
+	width: 300px;
+	background-color: rgb(32, 8, 80);
+	height: 300px;
+	position: relative;
+}
+
+.second {
+	width: 200px;
+	height: 200px;
+	background-color: rgb(37, 96, 30);
+	position: absolute;
+}
+.third {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(150, 14, 39);
+}
+
+.header {
+	background-color: #000;
+	padding: 5px;
+	color: #fff;
+	text-align: center;
+	width: 200px;
+	position: fixed;
+	top: 40px;
+	left: -100px;
+	transition: all 0.5s ease-in-out;
+}
+.header:hover {
+	left: 0;
+} */
+/* 
+.parent {
+	width: 100%;
+	background-color: #ddd;
+	margin-top: 50px;
+	display: flex;
+}
+
+.parent .item {
+	width: 10%;
+}
+.parent .item:nth-child(1) {
+	background-color: green;
+}
+.parent .item:nth-child(2) {
+	background-color: rgb(47, 18, 92);
+}
+.parent .item:nth-child(3) {
+	background-color: rgb(10, 67, 69);
+}
+.parent .item:nth-child(4) {
+	background-color: rgb(192, 17, 139);
+}
+.parent .item:nth-child(5) {
+	background-color: rgb(101, 122, 8);
+} */
