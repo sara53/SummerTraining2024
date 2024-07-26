@@ -1,0 +1,6 @@
+1- install nodeJS
+2- node -v
+3- npx create-react-app projectName
+4- npm start
+----------------------------------------
+== npm i bootstrap
