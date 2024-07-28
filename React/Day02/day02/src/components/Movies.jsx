@@ -1,5 +1,6 @@
 import React from 'react'
 import { MovieCard } from './MovieCard'
+import { Outlet } from 'react-router-dom'
 
 export default function Movies( props ) {
     let { moviesList } = props
@@ -14,6 +15,7 @@ export default function Movies( props ) {
                     }
 
                 </div>
+                <Outlet />
             </div>
         </div>
     )
