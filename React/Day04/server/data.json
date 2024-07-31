@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": "be8c",
+      "name": "orange",
+      "price": "99",
+      "quantity": "3"
+    },
+    {
+      "id": "4110",
+      "name": "welcome edit product",
+      "price": "99",
+      "quantity": "55"
+    }
+  ]
+}
